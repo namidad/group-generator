@@ -13,12 +13,27 @@ body {
   justify-content: space-around;
 }
 
+.createContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
 
 .formContainer {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.poolContainer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
 }
